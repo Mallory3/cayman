@@ -144,7 +144,7 @@ Hero
  h1 {
   font-family: 'Kanit', sans-serif;
 	 color: rgb(210, 215, 218);
-	 font-size: 2rem;
+	 font-size: 4rem;
 	 letter-spacing: -3px;
 	 text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
 	 position: relative;
@@ -157,7 +157,7 @@ Hero
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 min-height: 35rem;
+	 min-height: 20rem;
 	 background-image: linear-gradient(to bottom, rgba(2, 6, 247, 0.6) 0%, rgba(2, 0, 1, 0.6) 100%), url('https://images.unsplash.com/photo-1457003633805-c9e8bd076e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1957&q=80');
 	 background-blend-mode: soft-light;
 	 background-size: cover;
