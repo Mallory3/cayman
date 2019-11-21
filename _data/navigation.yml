@@ -1,8 +1,8 @@
-- link: /border-box.com/cayman/
+- link: /
   name: Home
-- link: /border-box.com/cayman/gallery
+- link: /gallery
   name: Gallery
-- link: /border-box.com/cayman/api
+- link: /api
   name: API
-- link: /border-box.com/cayman/blog
+- link: /blog
   name: Blog
