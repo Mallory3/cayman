@@ -3,7 +3,7 @@
   <nav>
       <div class="wrapper">
           <a class="logo" href="/"><img id="logo" src="{{site.baseurl}}/assets/img/logo.svg" alt="gem logo"></a>
-          <div id = "title">Mallory Zlomanchuk</div>
+          <div id = "title">{{ page.title | default: site.title | default: site.github.repository_name }}</div>
             <ul class="navMenu">
               <div class ="close"><a href="#" id="menu-icon"><img id="menu-icon" src="{{site.baseurl}}/assets/img/close.svg" alt="mobile menu"></a></div>
               <li>
