@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Api
 description: This is just another page
 ---
 
