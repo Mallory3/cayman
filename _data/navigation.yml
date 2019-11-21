@@ -1,0 +1,8 @@
+- link: /
+  name: Home
+- link: /gallery/
+  name: Gallery
+- link: /api
+  name: API
+- link: /blog/
+  name: Blog

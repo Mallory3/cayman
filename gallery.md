@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Blog
+title: Gallery
 description: This is just another page
 ---
 
