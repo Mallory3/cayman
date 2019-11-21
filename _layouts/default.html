@@ -20,8 +20,8 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
-    <div >
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <div class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
       {% if site.github.is_project_page %}
@@ -31,7 +31,28 @@
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
-    </div>
+    </div> -->
+    <div class="container">
+	
+        <h1>SVG Animated Birds</h1>
+        
+        <div class="bird-container bird-container--one">
+          <div class="bird bird--one"></div>
+        </div>
+        
+        <div class="bird-container bird-container--two">
+          <div class="bird bird--two"></div>
+        </div>
+        
+        <div class="bird-container bird-container--three">
+          <div class="bird bird--three"></div>
+        </div>
+        
+        <div class="bird-container bird-container--four">
+          <div class="bird bird--four"></div>
+        </div>
+        
+      </div>
 
     {% include navigation.html nav=site.data.navigation %}
     <script src="{{site.baseurl}}/assets/js/app.js"></script>
