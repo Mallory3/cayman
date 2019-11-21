@@ -1,8 +1,8 @@
-- link: cayman/
+- link: /cayman/
   name: Home
-- link: cayman/gallery/
+- link: /cayman/gallery
   name: Gallery
-- link: cayman/api
+- link: /cayman/api
   name: API
-- link: cayman/blog/
+- link: /cayman/blog
   name: Blog
