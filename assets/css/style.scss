@@ -90,7 +90,7 @@ header a:hover {
       position: fixed; 
       top: 0;
       bottom: 0;
-      right: -320px;
+      right: -340px;
       width: 300px;
       height: 35vh;
       border-bottom-left-radius: 10px;
@@ -112,7 +112,7 @@ header a:hover {
   }
  
   .openState {
-      transform: translateX(-300px); 
+      transform: translateX(-320px); 
       transition: transform 0.2s; 
       display: flex;
       flex-wrap: wrap;
