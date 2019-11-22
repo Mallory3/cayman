@@ -74,6 +74,7 @@ header a:hover {
   margin: auto;
   margin-right: .4em;
   margin-bottom: .5em;
+  margin-top: .1em;
 }
 
 #title {
@@ -111,7 +112,7 @@ header a:hover {
   }
  
   .openState {
-      transform: translateX(-290px); 
+      transform: translateX(-300px); 
       transition: transform 0.2s; 
       display: flex;
       flex-wrap: wrap;
