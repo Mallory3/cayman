@@ -113,7 +113,7 @@ header a:hover {
  
   .openState {
       transform: translateX(-320px); 
-      transition: transform 0.2s; 
+      transition: transform 0.4s; 
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
@@ -143,7 +143,7 @@ header a:hover {
 
   .closedState {
       transform: translateX(0px);
-      transition: transform 0.2s; 
+      transition: transform 0.4s; 
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
