@@ -73,6 +73,7 @@ header a:hover {
   padding: .5em;
   margin: auto;
   margin-right: .4em;
+  margin-bottom: 1em;
 }
 
 #title {
@@ -126,7 +127,6 @@ header a:hover {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-bottom: 1em;
   }
 
   .openState ul {
