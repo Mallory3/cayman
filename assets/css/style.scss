@@ -33,8 +33,6 @@ header .menu {
   width: 40px;
   display: none;
   margin: 1em;
-  margin-right: 1.5em;
-  
 }
 
 header .close {
@@ -50,7 +48,7 @@ header ul {
   padding: 0;
   display: flex;
   width: 500px;
-  // justify-content: space-around;
+  justify-content: space-around;
 }
 
 header li {
@@ -73,7 +71,8 @@ header a:hover {
 
 #navLink {
   padding: .5em;
-  margin: .7;
+  margin: 1em;
+  margin-right: 1.5em;
 }
 
 #title {
