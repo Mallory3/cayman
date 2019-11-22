@@ -130,6 +130,12 @@ header a:hover {
     flex-direction: column;
   }
 
+  .closedState a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   .openState ul {
     margin-top: 2em;
   }
