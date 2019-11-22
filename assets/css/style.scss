@@ -2,8 +2,7 @@
 ---
 
 @import 'jekyll-theme-cayman';
-@import url('https://fonts.googleapis.com/css?family=Kanit:700&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700&display=swap');
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 HEADER
 - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -77,7 +76,7 @@ header a:hover {
 #title {
   color:white;
   font-size: 20px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 @media(max-width: 750px) {
