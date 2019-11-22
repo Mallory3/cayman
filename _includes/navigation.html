@@ -9,7 +9,7 @@
               <li>
 
                   {% for item in site.data.navigation %}
-                      <a id="navLink" href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
+                      <a id="navLink" class="glow-on-hover" type="button" href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>
                         {{ item.name }}
                       </a>
                   {% endfor %}
