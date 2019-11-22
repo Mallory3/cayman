@@ -122,6 +122,12 @@ header a:hover {
       z-index: 1;
   }
 
+  .openState a {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
 
   header li {
       color: white;
