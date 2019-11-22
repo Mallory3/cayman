@@ -357,4 +357,7 @@ Hero
   margin: auto;
   margin-left: .5em;
   margin-right: 3em;
+  background: -webkit-linear-gradient(#228697, #c2ecf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
