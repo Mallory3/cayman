@@ -73,9 +73,6 @@ header a:hover {
   padding: .5em;
   margin: auto;
   margin-right: .4em;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
 }
 
 #title {
@@ -124,6 +121,7 @@ header a:hover {
       padding-left: 2em;
       z-index: 1;
   }
+
 
   header li {
       color: white;
