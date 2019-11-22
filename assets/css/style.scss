@@ -77,6 +77,8 @@ header a:hover {
   color:white;
   font-size: 20px;
   font-family: 'Ubuntu', sans-serif;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 @media(max-width: 750px) {
@@ -224,7 +226,7 @@ Hero
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 min-height: 25rem;
+	 min-height: 30rem;
 	 background-image: linear-gradient(to bottom, rgba(0, 0, 3, 0.6) 0%, rgba(2, 0, 1, 0.6) 100%), url('https://images.unsplash.com/photo-1457003633805-c9e8bd076e0b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1957&q=80');
 	 background-blend-mode: soft-light;
 	 background-size: cover;
@@ -342,7 +344,7 @@ Hero
 }
 
 #heroDiv {
-  height: 10vh;
+  height: 15vh;
   width: 100%;
   background-color: black;
 }
@@ -351,4 +353,6 @@ Hero
   color: white;
   text-align: center;
   margin: auto;
+  margin-left: .5em;
+  margin-right: .5em;
 }
