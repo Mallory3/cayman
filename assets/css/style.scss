@@ -45,10 +45,11 @@ header .close {
 
 header ul {
   margin: 0;
+  margin-right: 2em;
   padding: 0;
   display: flex;
-  width: 400px;
-  justify-content: space-between;
+  width: 500px;
+  justify-content: space-around;
 }
 
 header li {
