@@ -1,11 +1,3 @@
 ---
-layout: contact
-title: Blog
-description: This is just another page
+layout: blank
 ---
-
-## Welcome to another page
-
-_yay_
-
-[back](./)
