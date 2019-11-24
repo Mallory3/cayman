@@ -1,11 +1,3 @@
 ---
-layout: default
-title: Api
-description: This is just another page
+layout: blank
 ---
-
-## Welcome to another page
-
-_yay_
-
-[back](./)

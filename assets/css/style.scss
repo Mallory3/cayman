@@ -374,14 +374,6 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 	}
 }
 
-// #heroDiv {
-//   height: 13vh;
-//   width: 100%;
-//   background-color: black;
-//   padding-top: 1em;
-//   border-left: 25px solid transparent;
-// 	border-right: 25px solid transparent;
-// }
 
 .top {
   background-color: black;
@@ -391,13 +383,13 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
 }
 
 .bottom {
-  background-color: white;
-  height: 50px;
+  background: linear-gradient(45deg, #f86f2f, #1f0a18);
+  height: 6.3vh;
   width: 100%;
 }
 
 .triangle {
-  border-top: 40px solid black;
+  border-top: 50px solid black;
   border-left: 50vw solid transparent;
   border-right: 50vw solid transparent;
   width: 0;
@@ -408,7 +400,36 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   overflow: hidden;
   left: 0;
   right: 0;
-  bottom: -30px;
+  bottom: -43px;
+  margin: auto;
+}
+
+.topBottom {
+  background: linear-gradient(45deg, #f15b2d, #1f0a18);
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.bottomBottom {
+  background-color: black;
+  height: 50px;
+  width: 100%;
+}
+
+.triangleBottom {
+  border-bottom: 50px solid black;
+  border-left: 50vw solid transparent;
+  border-right: 50vw solid transparent;
+  width: 0;
+  height: 0;
+  top: 107px;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  bottom: 6px;
   margin: auto;
 }
 
@@ -426,6 +447,23 @@ Triangle Div Style: https://stackoverflow.com/questions/31242417/center-triangle
   margin-right: 1em;
 }
 
+
+
+
+#me {
+  height: 380px;
+  width: 380px;
+  object-fit: contain; 
+  object-position: top;
+  // padding: 2em;
+  // margin-left: 2em;
+  float: left;
+  // border-radius: 50%;
+  // shape-outside: circle(50%);
+  // clip-path: circle(50%);
+  shape-outside: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
 Skill Cards
@@ -475,7 +513,7 @@ Skill Cards
 	grid-template-columns: 1fr max-content max-content;
 	grid-template-rows:1fr 3fr;
 	border-radius: 3%;
-	background: -webkit-gradient(linear, left top, left bottom, from(#f84a06), to(#f023df));
+	background: -webkit-linear-gradient( #f15d30, #551540);
 	border: 1px solid black
 }
 
