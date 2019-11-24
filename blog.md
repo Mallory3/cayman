@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contact
 title: Blog
 description: This is just another page
 ---
