@@ -1,3 +1,5 @@
 ---
-layout: blank
+layout: page
+pagination: 
+  enabled: true
 ---
