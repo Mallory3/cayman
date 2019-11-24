@@ -8,7 +8,7 @@
 RESET
 - - - - - - - - - - - - - - - - - - - - - - - - */
 body {
-  background-color: black;
+  background-color: white;
 }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -255,7 +255,7 @@ Hero
 	 display: flex;
 	 align-items: center;
 	 justify-content: center;
-	 min-height: 40rem;
+	 min-height: 42rem;
 	 background-image: linear-gradient(to bottom, rgba(255, 254, 255, 0.6) 0%, rgba(2, 0, 1, 0.6) 100%), url('https://images.unsplash.com/photo-1468186402854-9a641fd7a7c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80');
 	 background-blend-mode: soft-light;
 	 background-size: cover;
@@ -390,7 +390,7 @@ Hero
 
 .bottom {
   background-color: white;
-  height: 500px;
+  height: 50px;
   width: 100%;
 }
 
@@ -434,7 +434,8 @@ Skill Cards
 	background-image: url("https://images.unsplash.com/photo-1557599443-2071a2df9c19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2164&q=80");
 	background-repeat: repeat;
 	background-size: contain;
-	padding-bottom: 15vh;
+  padding-bottom: 15vh;
+  padding-top: 10vh;
 }
 
 #skilltitle {
