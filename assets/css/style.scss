@@ -372,15 +372,16 @@ Hero
 }
 
 #heroQuote {
-  color: white;
-  font-size: 25px;
-  text-align: center;
-  margin: auto;
-  margin-left: .5em;
-  margin-right: 3em;
-  background: -webkit-linear-gradient(#e9e8e8, rgb(147, 147, 148));
+  margin-top: 0;
+  background: -webkit-linear-gradient(#f5a586, #dfcdd5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vmin;
+  display: block;
+  margin: auto;
+  text-align: right;
+  margin-right: 1em;
 }
 
 
