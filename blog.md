@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: index
 pagination: 
   enabled: true
 ---

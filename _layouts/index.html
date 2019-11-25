@@ -26,9 +26,16 @@
   
       {% include hero.html %}
 
+<!-- loop through _posts and displays each posts url and title -->
+{% for post in site.posts %}
+
+<li><a href="{{ post.url }}">{{ post.title}} </a></li>
+
+{% endfor %}
 
 
 
+<!-- pagination -->
 {% for post in paginator.posts %}
   <h1>{{ post.title }}</h1>
 {% endfor %}
